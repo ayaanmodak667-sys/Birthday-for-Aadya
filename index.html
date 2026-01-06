@@ -1,136 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday!!!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!!!</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff0f5;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
-        .container {
-            padding: 30px;
-            position: relative;
-            z-index: 2;
-        }
+/* Center container */
+.container {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
 
-        /* Animated Happy Birthday */
-        h1 {
-            color: #ff69b4;
-            font-size: 2.2rem;
-            animation: pop 1.5s ease-in-out infinite alternate;
-        }
+/* Animated heading */
+h1 {
+    color: #ff69b4;
+    font-size: 2.4rem;
+    animation: bounce 1.2s infinite alternate;
+}
 
-        @keyframes pop {
-            from { transform: scale(1); }
-            to { transform: scale(1.05); }
-        }
+@keyframes bounce {
+    from { transform: scale(1); }
+    to { transform: scale(1.08); }
+}
 
-        h2 {
-            margin-top: 30px;
-            color: #d63384;
-        }
+h2 {
+    margin-top: 30px;
+    color: #d63384;
+}
 
-        .note {
-            max-width: 600px;
-            margin: 20px auto;
-            font-size: 18px;
-            line-height: 1.6;
-            background: #ffffff;
-            padding: 18px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+/* Note box */
+.note {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-        /* Coloring images */
-        .gallery {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-        .gallery img {
-            width: 180px;
-            height: auto;
-            margin: 10px;
-            border-radius: 12px;
-        }
+.gallery img {
+    width: 180px;
+    margin: 10px;
+    border-radius: 12px;
+}
 
-        /* Cake image */
-        .cake img {
-            width: 260px;
-            height: auto;
-            margin-top: 10px;
-            border-radius: 14px;
-            box-shadow: 0 6px 18px rgba(255,105,180,0.3);
-        }
+/* Cake */
+.cake img {
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(255,105,180,0.35);
+}
 
-        /* Floating hearts */
-        .heart {
-            position: fixed;
-            bottom: -20px;
-            font-size: 18px;
-            color: rgba(255, 105, 180, 0.7);
-            animation: floatUp 6s linear infinite;
-            z-index: 1;
-        }
+/* Floating hearts */
+.heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 28px;
+    animation: floatUp 5s linear forwards;
+    z-index: 1;
+}
 
-        @keyframes floatUp {
-            0% {
-                transform: translateY(0);
-                opacity: 0;
-            }
-            10% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-110vh);
-                opacity: 0;
-            }
-        }
-    </style>
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-120vh);
+        opacity: 0;
+    }
+}
+</style>
 </head>
 
 <body>
 
-    <!-- Floating hearts -->
-    <span class="heart" style="left:10%; animation-delay:0s;">💖</span>
-    <span class="heart" style="left:25%; animation-delay:2s;">💗</span>
-    <span class="heart" style="left:40%; animation-delay:4s;">💓</span>
-    <span class="heart" style="left:55%; animation-delay:1s;">💞</span>
-    <span class="heart" style="left:70%; animation-delay:3s;">💕</span>
-    <span class="heart" style="left:85%; animation-delay:5s;">💖</span>
+<div class="container">
+    <h1>Happy Birthday!!! 🎉💖</h1>
 
-    <div class="container">
-
-        <h1>Happy Birthday!!! 🎉💖</h1>
-
-        <div class="note">
-            🌸 It’s officially your day! 🎉  
-            I hope your birthday is filled with smiles, cake, and everything you love, sweetu Gungun.  
-            You deserve it all ❤️
-        </div>
-
-        <div class="gallery">
-            <h2>Your Coloring & Smile ✨</h2>
-            <img src="20251117_134802.jpg" alt="Her coloring">
-            <img src="20251209_134333.jpg" alt="Her art">
-        </div>
-
-        <div class="cake">
-            <h2>Birthday Cake 🎂</h2>
-            <img src="ai-generated-9083277_1920.jpg" alt="Birthday Cake">
-        </div>
-
+    <div class="note">
+        🌸 It’s officially your day! 🎉  
+        I hope your birthday is filled with smiles, cake, and everything you love, sweetu Gungun.  
+        You deserve it all ❤️
     </div>
+
+    <div class="gallery">
+        <h2>Your Coloring & Smile ✨</h2>
+        <img src="20251117_134802.jpg">
+        <img src="20251209_134333.jpg">
+    </div>
+
+    <div class="cake">
+        <h2>Birthday Cake 🎂 for MY Gungun</h2>
+        <img src="ai-generated-9083277_1920.jpg">
+    </div>
+</div>
+
+<script>
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerText = "💖";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.color = "rgba(255,105,180,0.9)";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 5000);
+}
+
+setInterval(createHeart, 600);
+</script>
 
 </body>
 </html>
