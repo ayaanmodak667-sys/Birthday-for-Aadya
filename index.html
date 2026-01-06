@@ -73,6 +73,18 @@ h2 {
     box-shadow: 0 6px 18px rgba(255,105,180,0.35);
 }
 
+/* Clickable heart */
+.click-heart {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.click-heart a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* Floating hearts */
 .heart {
     position: fixed;
@@ -102,19 +114,26 @@ h2 {
 
     <div class="note">
         🌸 It’s officially your day! 🎉  
-        I hope your birthday is filled with smiles, cake, and everything you love, sweetu Gungun.  
+        I hope your birthday is filled with smiles, cake, and everything you love, sweetu.  
         You deserve it all ❤️
     </div>
 
     <div class="gallery">
         <h2>Your Coloring & Smile ✨</h2>
-        <img src="20251117_134802.jpg">
-        <img src="20251209_134333.jpg">
+        <img src="20251117_134802.jpg" alt="Coloring">
+        <img src="20251209_134333.jpg" alt="Art">
     </div>
 
     <div class="cake">
-        <h2>Birthday Cake for MY Gungun</h2>
-        <img src="ai-generated-9083277_1920.jpg">
+        <h2>Birthday Cake 🎂</h2>
+        <img src="ai-generated-9083277_1920.jpg" alt="Cake">
+    </div>
+
+    <!-- Clickable heart -->
+    <div class="click-heart">
+        <a href="#" onclick="alert('This page was made just for you, with a lot of love 💖'); return false;">
+            💕 Click me
+        </a>
     </div>
 </div>
 
